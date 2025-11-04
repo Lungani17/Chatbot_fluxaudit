@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this new keyframe rule.
+  It creates a simple animation named 'wave' that
+  moves horizontally by 960px.
+*/
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-960px); 
+  }
+}
